@@ -29,6 +29,8 @@ case $CHOICE in
             ls -ahl output-artifacts/
             ;;
         2)
+            cd $TENSORFLOW && $TENSORFLOW/tensorflow/tools/ci_build/ci_build.sh PI-PYTHON38 \
+                tensorflow/tools/ci_build/pi/build_raspberry_pi.sh AARCH64
             cd $TENSORFLOW && $TENSORFLOW/tensorflow/tools/ci_build/ci_build.sh PI-PYTHON37 \
                 tensorflow/tools/ci_build/pi/build_raspberry_pi.sh AARCH64
             ls -ahl output-artifacts/
