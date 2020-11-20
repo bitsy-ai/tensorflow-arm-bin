@@ -5,7 +5,7 @@
 
 The [TensorFlow team](https://www.tensorflow.org/install/pip) provides an official wheel for Python3.5 on Raspberry Pi 1-3 and Pi Zero. 
 
-All other wheels were [cross-compiled from source](https://www.tensorflow.org/install/source_rpi) and are provided  
+All other wheels were [cross-compiled from source](https://www.tensorflow.org/install/source_rpi).
 
 
 | Raspberry Pi | Python | Arch    | URL                                                                                                                                     | Checksum                         |
